@@ -1,13 +1,13 @@
 # Katabump-Renewal
 
-基于 GitHub Actions + SeleniumBase 的 Katabump 自动续期脚本，支持多账号、可选代理与 Telegram 通知。
+基于 GitHub Actions + SeleniumBase 的 Katabump 自动续期脚本，支持多账号，可选代理与 Telegram 通知。
 
 ## 1. 仓库结构
 
 - `/home/runner/work/Katabump-Renewal/Katabump-Renewal/main.py`：登录、验证、续期主逻辑
 - `/home/runner/work/Katabump-Renewal/Katabump-Renewal/proxy_handler.py`：解析 `PROXY_URL` 并生成 sing-box `config.json`
 - `/home/runner/work/Katabump-Renewal/Katabump-Renewal/.github/workflows/renew.yml`：定时/手动运行的工作流
-- `/home/runner/work/Katabump-Renewal/Katabump-Renewal/login.json.template`：账号 JSON 示例
+- `/home/runner/work/Katabump-Renewal/Katabump-Renewal/login.json.template`： 账号 JSON 示例
 
 ---
 
